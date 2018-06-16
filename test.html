@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+  </head>
+  <body>
+    <h1 id="timestamp">1525162800000</h1>
+    <h1 id="rate">4.0901</h1>
+    <h1 id="date"></h1>
+    <script>     
+      $(document).ready(function() {
+        $("#date").text(moment.unix($('#timestamp').text() / 1000).format('DD-MM-YYYY HH:mm'));
+      });
+
+      setTimeout(function() {
+        location.reload();
+      }, 30000);
+    </script>
+  </body>
+</html>
