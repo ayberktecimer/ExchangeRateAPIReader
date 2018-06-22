@@ -1,5 +1,5 @@
 
-## Project was asked me at internship qualification process.
+## Implementing Project asked me at internship qualification process.
 
 In the 2nd stage of your internship evaluation process, we are expecting you to
 do a small project.
